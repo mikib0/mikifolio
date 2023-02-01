@@ -10,7 +10,7 @@ import { Link } from './styles';
 
 const socials = [
   {
-    url: 'https://twitter.com/mi_ki_bo',
+    url: 'https://github.com/mikib0',
     Icon: AiFillGithub,
   },
   {
