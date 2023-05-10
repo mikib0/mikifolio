@@ -113,22 +113,20 @@ font-size: 1.5rem;
 `
 
 export const QuoteBlock = styled.div`
-  font-size: 20px;
-  font-style: italic;
-  border: 2px solid #333;
-  border-radius: 10px;
-  padding: 20px;
+  margin: auto;
+  max-width: 50rem;
 `;
 
 export const QuoteText = styled.p`
+  font-style: italic;
   color: #cdd;
-  margin: 0;
+  text-align: center;
   line-height: 1.5;
+  font-size: 4rem;
 `;
 
 export const QuoteAuthor = styled.p`
-font-size: 16px;
-  font-style: normal;
+  font-size: 1.7rem;
   color: #999;
   text-align: right;
-`
+`;
