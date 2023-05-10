@@ -9,7 +9,7 @@ const Projects = () => (
     <SectionDivider divider colorAlt />
     <SectionTitle>Projects</SectionTitle>
     <QuoteBlock>
-      <QuoteText>"What I cannot create, I do not understand"</QuoteText>
+      <QuoteText>"What I cannot create, \n I do not understand"</QuoteText>
       <QuoteAuthor>— Richard Feynman</QuoteAuthor>
     </QuoteBlock>
 

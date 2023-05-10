@@ -24,24 +24,22 @@ import { BsTerminalFill } from 'react-icons/bs';
 
 export const projects = [
   {
-    title: 'chappie',
-    description:
-      'What would it be like chatting with chatGPT in the way we are used to chatting with each other in platforms like WhatsApss or Telegram?, I thought. Chappie is a Telegram bot that leverages the OpenAI API to provide users with a meaningful response in a human like conversational manner. It uses the same language model as chatGPT.',
-    image: '/images/el_chappie.png',
-    tags: ['Javascript', 'Node', 'Express', 'Mongo'],
-    source: 'https://github.com/mikib0/chappie',
-    visit: 'https://t.me/gpt3_tgBot',
-    id: 0,
-  },
-  {
     title: 'News Portal',
     description:
-    'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
+      'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
     image: '/images/news_portal.png',
     tags: ['Javascript', 'React', 'React Router'],
     source: 'https://github.com/mikib0/news-portal',
     visit: 'https://mikinews.netlify.app',
     id: 0,
+  },
+  {
+    title: 'Fortisman',
+    description: 'A React Native mobile app for tracking different detoxes and keeping a journal of relapses.',
+    image: '/images/fortisman.png',
+    tags: ['React', 'React Native', 'Redux'],
+    source: 'https://github.com/mikib0/fortisman',
+    visit: 'https://expo.dev/artifacts/eas/6g8xSYiF1kMQgjP364FtRQ.apk'
   },
   {
     title: 'Quran',
@@ -52,6 +50,16 @@ export const projects = [
     source: 'https://github.com/mikib0/quran',
     visit: 'https://miki-quran.netlify.app/',
     id: 1,
+  },
+  {
+    title: 'chappie',
+    description:
+      'What would it be like chatting with chatGPT in the way we are used to chatting with each other in platforms like WhatsApss or Telegram?, I thought. Chappie is a Telegram bot that leverages the OpenAI API to provide users with a meaningful response in a human like conversational manner. It uses the same language model as chatGPT.',
+    image: '/images/el_chappie.png',
+    tags: ['Javascript', 'Node', 'Express', 'Mongo'],
+    source: 'https://github.com/mikib0/chappie',
+    visit: 'https://t.me/gpt3_tgBot',
+    id: 0,
   },
   {
     title: 'Tweet Remover',
