@@ -2,31 +2,31 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height: 40rem;
+  ${'' /* height: 360px; */}
   object-fit: cover;
-  overflow: hidden;
 `
 
 export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
-@media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 0;
-}
-
-`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  ${'' /* grid-template-columns: 1fr; */}
+  padding: 3rem;
+  place-items: center;
+  column-gap: 2rem;
+  row-gap: 3rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+`;
 export const BlogCard = styled.div`
+  overflow: hidden;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  ${'' /* width: 100; */}
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
