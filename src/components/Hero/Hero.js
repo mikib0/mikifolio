@@ -17,12 +17,11 @@ const Hero = (props) => (
         and ReactJS. I love digging down the rabbit hole to understand how
         things work under the hood and am always looking for ways to improve my
         skills and knowledge. In my free time, you can find me tinkering with
-        new libraries and frameworks, or trying out the latest and greatest in
-        web development.
+        new libraries and frameworks, or trying out the latest trends in web
+        development.
       </SectionText>
       <Button
-        onClick={() => (window.open('https://my.indeed.com/p/ibrahimi-zz1h8pg'))
-        }>
+        onClick={() => window.open('https://my.indeed.com/p/ibrahimi-zz1h8pg')}>
         Learn More
       </Button>
     </LeftSection>
