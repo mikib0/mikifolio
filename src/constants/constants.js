@@ -24,6 +24,15 @@ import { BsTerminalFill } from 'react-icons/bs';
 
 export const projects = [
   {
+    title: 'Fortisman',
+    description:
+      'A React Native mobile app for tracking different detoxes and keeping a journal of relapses.',
+    image: '/images/fortisman.png',
+    tags: ['React', 'React Native', 'Redux'],
+    source: 'https://github.com/mikib0/fortisman',
+    visit: 'https://expo.dev/artifacts/eas/6g8xSYiF1kMQgjP364FtRQ.apk',
+  },
+  {
     title: 'News Portal',
     description:
       'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
@@ -32,14 +41,6 @@ export const projects = [
     source: 'https://github.com/mikib0/news-portal',
     visit: 'https://mikinews.netlify.app',
     id: 0,
-  },
-  {
-    title: 'Fortisman',
-    description: 'A React Native mobile app for tracking different detoxes and keeping a journal of relapses.',
-    image: '/images/fortisman.png',
-    tags: ['React', 'React Native', 'Redux'],
-    source: 'https://github.com/mikib0/fortisman',
-    visit: 'https://expo.dev/artifacts/eas/6g8xSYiF1kMQgjP364FtRQ.apk'
   },
   {
     title: 'Quran',

@@ -13,12 +13,12 @@ export const GridContainer = styled.section`
   padding: 3rem;
   ${'' /* place-items: center; */}
   column-gap: 2rem;
-  ${'' /* row-gap: 3rem; */}
+  row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
+    padding: 2rem .5rem;
+    padding-bottom: .1rem;
   }
 `;
 
@@ -36,6 +36,7 @@ export const BlogCard = styled.div`
   ${'' /* width: 100; */}
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    box-shadow: 1px 1px 10px rgba(80, 78, 78, 0.5);
   }
 `;
 export const TitleContent = styled.div`
@@ -75,14 +76,14 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 1rem;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
   margin-bottom: 1rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding: 0 1rem;
   
 }
 `;
