@@ -11,9 +11,9 @@ export const GridContainer = styled.section`
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   ${'' /* grid-template-columns: 1fr; */}
   padding: 3rem;
-  place-items: center;
+  ${'' /* place-items: center; */}
   column-gap: 2rem;
-  row-gap: 3rem;
+  ${'' /* row-gap: 3rem; */}
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
@@ -21,6 +21,13 @@ export const GridContainer = styled.section`
     padding-bottom: 0;
   }
 `;
+
+export const ProjectsColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+`
+
 export const BlogCard = styled.div`
   overflow: hidden;
   border-radius: 10px;
@@ -123,6 +130,10 @@ export const QuoteText = styled.p`
   text-align: center;
   line-height: 1.5;
   font-size: 4rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    line-height: 1;
+    font-size: 3rem;
+  }
 `;
 
 export const QuoteAuthor = styled.p`
