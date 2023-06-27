@@ -41,7 +41,7 @@ export const projects = [
     description:
       'A React Native mobile app developed using mordern material design 3 to provide a visually appealing and responsive interface, for tracking different detoxes and keeping a journal of relapses, with features such as light & dark mode, tab navigation, progress counter & ranking, journal entry with date, quotes with bookmark & sharing functionality.',
     image: '/images/fortisman.png',
-    tags: ['React', 'React Native', 'Redux', 'Material Design'],
+    tags: ['React', 'React Native', 'Redux', 'Material Design'], // TODO add md to skills
     source: 'https://github.com/mikib0/fortisman',
     visit: 'https://expo.dev/artifacts/eas/6g8xSYiF1kMQgjP364FtRQ.apk',
   },
@@ -50,7 +50,7 @@ export const projects = [
     description:
       'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
     image: '/images/news_portal.png',
-    tags: ['Javascript', 'React', 'React Router'],
+    tags: ['Javascript', 'React', 'React Router', 'Axios'], // TODO add axios to skills
     source: 'https://github.com/mikib0/news-portal',
     visit: 'https://mikinews.netlify.app',
     id: 0,
@@ -60,7 +60,7 @@ export const projects = [
     description:
       'Quran web app including recitation and translation. I used bootstrap for the styling and react router for routing in this project. Most importantly i get all the data from the quran api (quran.api-docs.io)',
     image: '/images/quran_app.png',
-    tags: ['React', 'JavaScript', 'react-router'],
+    tags: ['React', 'JavaScript', 'react-router', 'React Bootstrap'],
     source: 'https://github.com/mikib0/quran',
     visit: 'https://miki-quran.netlify.app/',
     id: 1,
