@@ -29,9 +29,10 @@ import { BiLogoJava } from 'react-icons/bi';
 export const projects = [
   {
     title: 'Laundry Management System',
-    description: 'A university hostel laundry management system',
+    description:
+      'A university hostel laundry management system using React, React Router, and Mantine for the front-end. Back-end REST API built using Express.js & MySQL with sequelize as ORM. JWT authentication, bcrypt password hashing and email notification using node-mailer.',
     image: '/images/lms.png',
-    tags: ['React', 'Express', 'MySQL'],
+    tags: ['React', 'Express', 'MySQL', 'React Router', 'Mantine'],
     source: 'https://github.com/mikib0/lms',
     visit: 'http://nilelms.eastus.cloudapp.azure.com/',
   },
