@@ -22,8 +22,9 @@ import {
   SiAmazonaws,
 } from 'react-icons/si';
 
-import { TbBrandReactNative } from 'react-icons/tb';
+import { TbBrandReactNative, TbBrandMantine } from 'react-icons/tb';
 import { BsTerminalFill } from 'react-icons/bs';
+import { BiLogoJava } from 'react-icons/bi';
 
 export const projects = [
   {
@@ -167,11 +168,15 @@ export const skills = [
   },
   {
     name: 'java',
-    icon: SiJava,
+    icon: BiLogoJava,
   },
   {
     name: 'bootstrap',
     icon: SiBootstrap,
+  },
+  {
+    name: 'mantine',
+    icon: TbBrandMantine,
   },
   {
     name: 'terminal',
