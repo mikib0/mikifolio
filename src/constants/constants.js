@@ -24,7 +24,7 @@ import { BsTerminalFill } from 'react-icons/bs';
 
 export const projects = [
   {
-    title: 'Nile LMS',
+    title: 'Laundry Management System',
     description: 'A university hostel laundry management system',
     image: '/images/lms.png',
     tags: ['React', 'Express', 'MySQL'],
