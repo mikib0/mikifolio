@@ -24,6 +24,14 @@ import { BsTerminalFill } from 'react-icons/bs';
 
 export const projects = [
   {
+    title: 'Nile LMS',
+    description: 'A university hostel laundry management system',
+    image: '/images/lms.png',
+    tags: ['React', 'Express', 'MySQL'],
+    source: 'https://github.com/mikib0/lms',
+    visit: 'http://nilelms.eastus.cloudapp.azure.com/',
+  },
+  {
     title: 'Fortisman',
     description:
       'A React Native mobile app for tracking different detoxes and keeping a journal of relapses.',
