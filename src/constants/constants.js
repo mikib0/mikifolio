@@ -50,7 +50,7 @@ export const projects = [
     description:
       'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
     image: '/images/news_portal.png',
-    tags: ['Javascript', 'React', 'React Router'],
+    tags: ['Javascript', 'React', 'React Router', 'Axios'], // TODO add axios to skills
     source: 'https://github.com/mikib0/news-portal',
     visit: 'https://mikinews.netlify.app',
     id: 0,
