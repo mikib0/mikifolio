@@ -50,7 +50,7 @@ export const projects = [
     description:
       'A website made with react that fetches news data from an API and display news headlines and weather forecast all tailored base on the location of the user.',
     image: '/images/news_portal.png',
-    tags: ['Javascript', 'React', 'React Router', 'Axios'], // TODO add axios to skills
+    tags: ['Javascript', 'React', 'React Router'],
     source: 'https://github.com/mikib0/news-portal',
     visit: 'https://mikinews.netlify.app',
     id: 0,
@@ -60,7 +60,7 @@ export const projects = [
     description:
       'Quran web app including recitation and translation. I used bootstrap for the styling and react router for routing in this project. Most importantly i get all the data from the quran api (quran.api-docs.io)',
     image: '/images/quran_app.png',
-    tags: ['React', 'JavaScript', 'react-router'],
+    tags: ['React', 'JavaScript', 'react-router', 'React Bootstrap'],
     source: 'https://github.com/mikib0/quran',
     visit: 'https://miki-quran.netlify.app/',
     id: 1,
