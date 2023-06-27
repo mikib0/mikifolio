@@ -17,6 +17,9 @@ import {
   SiPnpm,
   SiExpress,
   SiMongodb,
+  SiMysql,
+  SiMicrosoftazure,
+  SiAmazonaws,
 } from 'react-icons/si';
 
 import { TbBrandReactNative } from 'react-icons/tb';
@@ -124,6 +127,18 @@ export const skills = [
   {
     name: 'mongodb',
     icon: SiMongodb,
+  },
+  {
+    name: 'mysql',
+    icon: SiMysql,
+  },
+  {
+    name: 'azure',
+    icon: SiMicrosoftazure,
+  },
+  {
+    name: 'aws',
+    icon: SiAmazonaws,
   },
   {
     name: 'figma',
