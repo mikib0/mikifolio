@@ -13,12 +13,18 @@ const Hero = (props) => (
         I’m Ibrahim Jajere
       </SectionTitle>
       <SectionText>
-        I am a frontend and mobile app developer with a passion for Javascript
-        and ReactJS. I love digging down the rabbit hole to understand how
-        things work under the hood and am always looking for ways to improve my
-        skills and knowledge. In my free time, you can find me tinkering with
-        new libraries and frameworks, or trying out the latest trends in web
-        development.
+        I'm a full stack MERN developer, who is always looking for ways to create
+        value and solve problems for his clients and colleagues. I have a strong
+        proficiency in Node.js, Express, MongoDB & React.js and enjoy using my
+        skills to build intuitive, user-friendly web and mobile applications
+        that meet the needs and expectations of my users.
+        
+        {/* I am a frontend and mobile
+        app developer with a passion for Javascript and ReactJS. I love digging
+        down the rabbit hole to understand how things work under the hood and am
+        always looking for ways to improve my skills and knowledge. In my free
+        time, you can find me tinkering with new libraries and frameworks, or
+        trying out the latest trends in web development. */}
       </SectionText>
       <Button
         onClick={() => window.open('https://my.indeed.com/p/ibrahimi-zz1h8pg')}>
