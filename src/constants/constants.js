@@ -39,9 +39,9 @@ export const projects = [
   {
     title: 'Fortisman',
     description:
-      'A React Native mobile app for tracking different detoxes and keeping a journal of relapses.',
+      'A React Native mobile app developed using mordern material design 3 to provide a visually appealing and responsive interface, for tracking different detoxes and keeping a journal of relapses, with features such as light & dark mode, tab navigation, progress counter & ranking, journal entry with date, quotes with bookmark & sharing functionality.',
     image: '/images/fortisman.png',
-    tags: ['React', 'React Native', 'Redux'],
+    tags: ['React', 'React Native', 'Redux', 'Material Design'],
     source: 'https://github.com/mikib0/fortisman',
     visit: 'https://expo.dev/artifacts/eas/6g8xSYiF1kMQgjP364FtRQ.apk',
   },
