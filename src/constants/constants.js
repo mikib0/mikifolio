@@ -60,7 +60,7 @@ export const projects = [
     description:
       'Quran web app including recitation and translation. I used bootstrap for the styling and react router for routing in this project. Most importantly i get all the data from the quran api (quran.api-docs.io)',
     image: '/images/quran_app.png',
-    tags: ['React', 'JavaScript', 'react-router', 'React Bootstrap'],
+    tags: ['React', 'JavaScript', 'react-router'],
     source: 'https://github.com/mikib0/quran',
     visit: 'https://miki-quran.netlify.app/',
     id: 1,
@@ -70,7 +70,7 @@ export const projects = [
     description:
       'What would it be like chatting with chatGPT in the way we are used to chatting with each other in platforms like WhatsApss or Telegram?, I thought. Chappie is a Telegram bot that leverages the OpenAI API to provide users with a meaningful response in a human like conversational manner. It uses the same language model as chatGPT.',
     image: '/images/el_chappie.png',
-    tags: ['Javascript', 'Node', 'Express', 'Mongo'],
+    tags: ['Javascript', 'Node', 'Express', 'Mongo', 'Winstonjs'],
     source: 'https://github.com/mikib0/chappie',
     visit: 'https://t.me/gpt3_tgBot',
     id: 0,
