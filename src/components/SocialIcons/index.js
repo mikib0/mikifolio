@@ -31,7 +31,7 @@ const SocialIcons = () => {
   return (
     <>
       {socials.map(({ url, Icon }) => (
-        <Link href={url}>
+        <Link target="_blank" href={url}>
           <Icon size='3rem' />
         </Link>
       ))}
